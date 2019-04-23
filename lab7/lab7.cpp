@@ -10,11 +10,12 @@ int main() {
 	srand(time(0));
 	my_vector vect;
 	vect.show();
-	cout << "Сумма всех элементов: ";
-	vect.sum();
-	cout << endl<<""<<endl;
-
+	cout << "Сумма всех элементов: "<< vect.sum()<<endl;
+	cout << "x=2x+5: "<<endl;
 	vect.line();
+	vect.replace();
+	cout << "Замена элементов больше 5ти на 20:" << endl;
+	vect.show();
 	/*vector<int> vect;
 	int N = 0;
 	cout << "Введите количество элементов вектора: ";

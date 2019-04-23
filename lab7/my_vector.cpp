@@ -36,6 +36,7 @@ int my_vector::sum()
 	for (int i = 0; i < N; i++) {
 		sum += vect[i];
 	}
+	return sum;
 }
 
 

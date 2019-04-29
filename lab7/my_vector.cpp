@@ -1,7 +1,7 @@
 #include "my_vector.h"
 #include <iostream>
 using namespace std;
-//template <typename T>
+
 
 my_vector::my_vector()
 {
